@@ -15,11 +15,11 @@ let options = {
 let data = {
   'name': chalk.white.bold('Jose Morales'),
   'handle': chalk.yellow('@elegidoadedo'),
-  'work': chalk.white('👨🏻‍💻 FullStack Developer\n🎓 Tech Addict'),
+  'work': chalk.white('👨🏻‍💻 FullStack Developer\n Tech Addict && Dreamer'),
   'twitter': chalk.yellow('https://twitter.com/elegidoadedo'),
   'github': chalk.yellow('https://github.com/elegidoadedo'),
   'linkedin': chalk.yellow('https://linkedin.com/in/elegidoadedo'),
-  'web': chalk.yellow('https://elegidoadedo.es'),
+  'web': chalk.yellow('https://elegidoadedo.com'),
   'npx': chalk.white('npx elegidoadedo'),
   'labelTwitter': chalk.white.bold('   Twitter:'),
   'labelGitHub': chalk.white.bold('    GitHub:'),
