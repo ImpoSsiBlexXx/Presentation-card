@@ -1,23 +1,27 @@
 {
   "name": "elegidoadedo",
-  "version": "1.0.0",
-  "description": "Jose's Card",
+  "version": "1.0.1",
+  "description": "Tarjeta de presentación de Jose (elegidoadedo)",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "elegidoadedo": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Elegidoadedo/Presentation-card.git"
+    "url": "https://github.com/Elegidoadedo/Presentation-card"
   },
-  "author": "Jose Morales (elegidoadedo)",
+  "scripts": {
+    "lint": "standard"
+  },
+  "keywords": [],
+  "author": "Jose Morales -> jmoralesmnz@gmail.com (https://elegidoadedo.com)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Elegidoadedo/Presentation-card/issues"
-  },
-  "homepage": "https://github.com/Elegidoadedo/Presentation-card#readme",
   "dependencies": {
     "boxen": "^2.1.0",
-    "chalk": "^2.4.1"
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
   }
 }
